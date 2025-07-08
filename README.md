@@ -4,7 +4,9 @@ Este repositorio contiene mis ejercicios de revisión de código realizados dura
 
 ## 📂 Ejercicios incluidos:
 
-### 1. `ejercicio-1-codigo-otros`
+---
+
+### 1. `code-review-1`
 Revisión de un proyecto que consume la API de GitHub para mostrar datos de usuario.
 
 **Cambios realizados:**
@@ -12,12 +14,20 @@ Revisión de un proyecto que consume la API de GitHub para mostrar datos de usua
 - Arreglo de interpolaciones mal escritas.
 - Corrección de selectores del DOM (`.name`, `.blog`).
 - Creación dinámica del campo `.location`.
-- Comentarios explicativos agregados para mejorar la legibilidad.
-
-🔗 [Ver código](./ejercicio-1-codigo-otros)
 
 ---
 
+### 2. `code-review-2`
+Formulario que valida nombre, edad y nacionalidad para agregar invitados a una lista visual en el DOM.
+
+**Cambios realizados:**
+- Se corrigió el selector del formulario (`#form` por `.formulario`).
+- Se reemplazó `.prevent()` por `.preventDefault()` en el evento submit.
+- Se renombró la variable `e` para evitar pisar el objeto de evento.
+- Se corrigió `.classList.added()` por `.add()`.
+- Se agregó el `id="lista-de-invitados"` al HTML.
+
+---
 
 ## 👤 Autor:
 **Arath Ramírez**  
