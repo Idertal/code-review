@@ -21,7 +21,7 @@ async function displayUser(username) {
 function handleError(err) {
   console.log('OH NO!');
   console.log(err);
-  $n.textContent = `Algo salió mal: ${err}` // * Faltaba definr bien el nombre de la variable con "$".
+  $n.textContent = `Algo salió mal: ${err}` // Faltaba definr bien el nombre de la variable con "$".
 }
 
 displayUser('stolinski').catch(handleError);
